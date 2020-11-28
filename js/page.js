@@ -95,7 +95,7 @@ var showPage = (function () {
     // 手指松开，完成移动
     pageContainer.ontouchend = function () {
       finishMove();
-      pageContainer.removeListener("touchmove", handler);
+      pageContainer.removeEventListener("touchmove", handler);
     };
   };
 
