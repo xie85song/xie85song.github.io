@@ -4,47 +4,22 @@
   var carouselDatas = [
     {
       link:
-        "https://lolm.qq.com/m/news_detail.html?docid=8584324486918752329&amp;e_code=492513&amp;idataid=279688",
+        "https://haokan.baidu.com/v?vid=12863856496937173792&pd=pcshare",
       image:
-        "https://ossweb-img.qq.com/upload/adw/image/20191015/80cbdbaff4a1aa009f61f9240a910933.jpeg",
+        "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp7.itc.cn%2Fq_70%2Fimages01%2F20210305%2Faf459735b04a4fa880218045bd684952.png&refer=http%3A%2F%2Fp7.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638538066&t=f97cf52a80d77d38ee3da97a6d8ecb0f",
     },
     {
       link:
-        "https://lolm.qq.com/m/news_detail.html?docid=13355407427466544705&amp;e_code=492506&amp;idataid=279689",
+        "https://haokan.baidu.com/v?vid=12863856496937173792&pd=pcshare",
       image:
-        "https://ossweb-img.qq.com/upload/adw/image/20191015/696545e262f2cbe66a70f17bf49f81e0.jpeg",
+        "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnimg.ws.126.net%2F%3Furl%3Dhttp%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0813%2F5bc16cc6p00qxr9qu008xc000rs00iim.png%26thumbnail%3D650x2147483647%26quality%3D80%26type%3Djpg&refer=http%3A%2F%2Fnimg.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638537714&t=ef82e572d5dee23ef3f73e6330d1940c",
     },
     {
       link:
-        "https://lolm.qq.com/m/news_detail.html?docid=15384999930905072890&amp;e_code=492507&amp;idataid=279690",
+        "https://haokan.baidu.com/v?vid=12863856496937173792&pd=pcshare",
       image:
-        "https://ossweb-img.qq.com/upload/adw/image/20191018/3c910d44898d7221344718ef3b7c0a7e.jpeg",
+        "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp3.itc.cn%2Fq_70%2Fimages01%2F20210628%2F47370e850ef149e18e78c5c7730a2692.png&refer=http%3A%2F%2Fp3.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638537820&t=16b987874d42e99e7a9ead8466a862da",
     },
   ];
   createCarousel("newsCarousel", carouselDatas);
-
-  // 新闻数据
-  // 从腾讯的服务器获取新闻数组
-  ajax(
-    "https://apps.game.qq.com/cmc/cross?serviceId=166&source=web_pc&filter=channel&chanid=4897&typeids=1&limit=4&start=0&sortby=sIdxTime"
-  ).then(function (resp) {
-    var ul = $(".news_list");
-    var html = ""; // 拼接字符串
-    // 拿到数据后运行的函数
-    for (var i = 0; i < resp.data.items.length; i++) {
-      var news = resp.data.items[i];
-      var type = news.sTagInfo.split(",")[0].split("|")[1];
-      html += ` <li>
-      <span>${type}</span>
-      <p>${news.sIdxTime}</p>
-      <a
-        href="https://lolm.qq.com/m/news_detail.html?docid=${news.iDocID}"
-        target="_blank"
-      >
-        ${news.sTitle}
-      </a>
-    </li>`;
-    }
-    ul.innerHTML = html;
-  });
 })();

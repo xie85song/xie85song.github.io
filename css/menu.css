@@ -7,7 +7,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  background: #202629;
+  background: #151515;
   height: 0.98rem;
 }
 .menu_container .menu_title .menu_logo {
@@ -16,7 +16,7 @@
 }
 .menu_container .menu_title .menu_logo img {
   width: 1.59rem;
-  height: 0.5rem;
+  height: rem;
 }
 .menu_container .menu_title .menu_attend {
   float: right;

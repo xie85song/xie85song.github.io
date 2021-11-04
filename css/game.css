@@ -21,7 +21,7 @@
 .game_container .game_desc {
   width: 6.8rem;
   height: 0.6rem;
-  font-size: 0.22rem;
+  font-size: 0.5rem;
   line-height: 0.45rem;
   color: #757e7f;
   overflow: hidden;
@@ -108,7 +108,7 @@
   height: 0.42rem;
   float: none;
   display: inline-block;
-  background: url(../assets/footer_logo.png) no-repeat;
+  background: url() no-repeat;
   background-size: 2.74rem 1.16rem;
   background-position: 0 -0.64rem;
   vertical-align: middle;
