@@ -2,22 +2,22 @@
   // 游戏介绍页面轮播图数据
   var carouselData = [
     {
-      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic3.zhimg.com%2Fv2-573fbfa31d6f0b1d801f53b7ffad257e_b.jpg&refer=http%3A%2F%2Fpic3.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638552014&t=0fe6ea28a7892562e5ca6b384216f757",
+      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp3.itc.cn%2Fimages01%2F20210302%2F46c3acce6bc14953b615433749988947.jpeg&refer=http%3A%2F%2Fp3.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638718485&t=02b795f4c3b6775923575f7d0f320120",
     },
     {
-      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp1.itc.cn%2Fimages01%2F20210402%2Fb44bd5f151f948af933b85c4a4fc2e7a.jpeg&refer=http%3A%2F%2Fp1.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638552014&t=db8751963455c3f50cba22a4e37d6491",
+      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.zhimg.com%2Fv2-1b6b8c6561699a75850917d3a04eebe3_1440w.jpg%3Fsource%3D172ae18b&refer=http%3A%2F%2Fpic1.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638717428&t=40e484198d6156b711644baee085d681",
     },
     {
-      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2Feab92586-038c-77cd-9630-2a013634f825%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638552133&t=343367920aa251516aaadbe4fadeaa4d",
+      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnimg.ws.126.net%2F%3Furl%3Dhttp%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0813%2F8876b2ebp00qxr9qr007hc000go00p0m.png%26thumbnail%3D650x2147483647%26quality%3D80%26type%3Djpg&refer=http%3A%2F%2Fnimg.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638717666&t=b04d58d4f841cf7dfc7644c77501d9b1https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnimg.ws.126.net%2F%3Furl%3Dhttp%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0813%2F8876b2ebp00qxr9qr007hc000go00p0m.png%26thumbnail%3D650x2147483647%26quality%3D80%26type%3Djpg&refer=http%3A%2F%2Fnimg.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638717666&t=b04d58d4f841cf7dfc7644c77501d9b1",
     },
     {
-      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.ncjmcc.com%2Fuploads%2F210302%2F1-210302140325344.jpg&refer=http%3A%2F%2Fwww.ncjmcc.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638552228&t=e43d50f42258a2e551ab47f5504f4be3",
+      image: "https://pic2.zhimg.com/v2-2ba7215b79fda9c0a901373a1716b561_1440w.jpg?source=172ae18b",
     },
     {
-      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2F07577a60-260d-e011-0f70-4307aef65f46%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638552270&t=2a8277e38f7f08a88f43dd2895f25b42",
+      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fqcloud.dpfile.com%2Fpc%2FPgj2FOn7HwBtRklM__5Ljb6zYSDC-uoI3RqzlmooBQtoQV_tIe8ZeoH02UkpN9md0pWA5k_Rl4JOAjKzyGaYog.jpg&refer=http%3A%2F%2Fqcloud.dpfile.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638717428&t=7c5dd8896e5a99a75f02d3fd46f8b93d",
     },
     {
-      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2F28bfe131-5b51-da91-24af-54e9a1b7c068%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638552295&t=3ed9fe8c6c648ce8561b4cd42d62e531",
+      image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp7.itc.cn%2Fq_70%2Fimages01%2F20210104%2Fb8633f5f241a4a9f8d8698535832406d.jpeg&refer=http%3A%2F%2Fp7.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1638717428&t=d7ddd8d9dc006060e4e1ffd5b3e8476e",
     },
   ];
   createCarousel("gameCarousel", carouselData);
