@@ -5,7 +5,7 @@
   position: relative;
 }
 .attend_container .attend_slogan {
-  background: url(../assets/slogan.png) no-repeat;
+  background: url() no-repeat;
   background-size: 2.5rem 2rem;
   width: 5.5rem;
   height: 1.62rem;
@@ -15,7 +15,7 @@
   z-index: 3;
 }
 .attend_container .attend_slogan .attend_play {
-  background: url(../assets/vid_ani.png) no-repeat;
+  background: url() no-repeat;
   background-size: 1.19rem 1.22rem;
   width: 1.19rem;
   height: 1.22rem;
@@ -26,7 +26,7 @@
 }
 .attend_container .attend_slogan .attend_play::after {
   content: "";
-  background: url(../assets/vid_arr.png) no-repeat;
+  background: url() no-repeat;
   background-size: 0.45rem 0.59rem;
   width: 0.45rem;
   height: 0.59rem;
@@ -35,7 +35,7 @@
   left: 0.45rem;
 }
 .attend_container .attend_button {
-  background: url(../assets/book_btn.png) no-repeat;
+  background: url() no-repeat;
   background-size: 6.27rem 2.09rem;
   width: 6.27rem;
   height: 2.09rem;
