@@ -49,12 +49,17 @@
   right: 0;
 }
 .game_container .game_detail {
-  background: url(../assets/pop_btn_spr.png) no-repeat;
+  color: #fff;
+  background: #353535;
   background-size: 3.81rem 9.65rem;
   width: 1.46rem;
   height: 0.48rem;
   background-position: 0 -7.5rem;
   margin: 0 auto;
+  line-height: 0.51rem;
+  text-align: center;
+  font-size: 0.24rem;
+  border: 3px #353535 solid;
 }
 .game_container .game_brand {
   display: flex;

@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/attend.css" />
     <!-- 页面2-新闻 -->
     <link rel="stylesheet" href="./css/news.css" />
-    <!-- 页面3-游戏信息 -->
+    <!-- 页面3-兰庭图片 -->
     <link rel="stylesheet" href="./css/game.css" />
     <script>
       (function () {
@@ -47,14 +47,14 @@
         </a>
         <!-- 开关 -->
         <div class="menu_switch"></div>
-        <div class="menu_attend" onclick="showPop('popAttend')">敬请关注</div>
+        <div class="menu_attend" onclick="showPop('popAttend')">兰庭文化</div>
       </div>
       <ul class="menu_nav">
-        <li onclick="showPage(0)">觅茶主页</li>
-        <li onclick="showPage(1)">觅茶公告</li>
+        <li onclick="showPage(0)">兰庭主页</li>
+        <li onclick="showPage(1)">兰庭公告</li>
         <li onclick="showPage(2)">相遇兰庭</li>
+        <li onclick="showPop('popFAQ')">兰庭周边</li>
         <li><a href="">问题反馈</a></li>
-        <li onclick="showPop('popFAQ')">寻觅兰庭</li>
       </ul>
     </div>
     <!-- 页面 -->
@@ -80,28 +80,25 @@
           <div class="news_bar">
             <a href="https://www.sohu.com/na/441195008_120331549" class="news_title selected">公告</a>
             <a href="http://t.cn/A6ciopFH" class="news_title">
-              更多
+              视频
             </a>
           </div>
           <ul class="news_list">
             <li>
               <span>通知</span>
-              <p>2021-11-03 22:47:59</p>
-              喜迎双十一 相约兰庭
+              喜迎双十一 相约兰庭觅茶
             </li>
             <li>
               <span>优惠</span>
-              <p>2021-11-03 22:45:39</p>
               双十一全场优惠
             </li>
             <li>
-              <span>地址</span>
-              <p>2021-11-03 22:43:16</p>
-              冕宁县东街139号
+              <span>觅语</span>
+              一杯浓香，新鲜时光
             </li>
             <li>
-              <span>电话</span>
-              <p>2021-11-03 22:40:56</p>
+              <span>地址</span>
+              冕宁县东街139号
             </li>
           </ul>
         </div>
@@ -121,7 +118,7 @@
             冕宁兰庭觅茶欢迎您的光临！
           </div>
 
-          <div class="game_detail" onclick="showPop('popDetail')"></div>
+          <div class="game_detail" onclick="showPop('popDetail')">寻觅兰庭</div>
 
           <div class="game_brand">
             <!-- <div class="game_brand-item" onclick="showPop('popWeixin')"></div>
@@ -157,14 +154,19 @@
     <div class="pop_container" id="popAttend" style="display: none">
       <!-- 居中的弹窗容器 -->
       <div class="pop_inner">
-        <p class="pop_title">选择预约平台</p>
+        <p class="pop_title">兰庭文化</p>
         <div class="pop_top"></div>
         <div class="pop_mid">
           <div class="pop_content">
             <div class="pop_platform">
               <div class="pop_login">
+                <p>
+                  世界上所有的惊喜和感动，都是人们累积的温柔和善良。在记忆当中，绿意盎然的春天，一杯奶茶能给我们带来无尽的清爽，就好像是烈日炎炎的正午时分，喝到一口冰凉的奶茶，全身上下都透着舒坦。幸福的日子转瞬即逝，不是失望，是对下一秒永远保持着期待和热枕。幸运的是，时光终究不负于我，遇见了属于自己的味道。
+                </p>
                 <div class="pop_wx"></div>
-                <div class="pop_qq selected"></div>
+                <div class="pop_qq selected">
+                  
+                </div>
               </div>
               <a href="" class="pop_button"></a>
             </div>
@@ -188,24 +190,17 @@
               </li>
               <li>
                 <p class="pop_q">Q：活动时间？</p>
-                <p class="pop_ans">A：2021年11月11日</p>
+                <p class="pop_ans">A：2021-11-11</p>
               </li>
               <li>
                 <p class="pop_q">Q：活动地点？</p>
                 <p class="pop_ans">
                   A：冕宁县东街139号 兰庭觅茶
-                  <li>
-                    <p class="pop_q">Q：可以美团购买吗？</p>
-                    <p class="pop_ans">A：可以的 美团上搜兰庭觅茶</p>
-                  </li>
-                  <li>
-                    <p class="pop_q">Q：寻觅兰庭</p>
-                    <p class="pop_ans">
-                      A：世界上所有的惊喜和感动，都是人们累积的温柔和善良。在记忆当中，绿意盎然的春天，一杯奶茶能给我们带来无尽的清爽，就好像是烈日炎炎的正午时分，喝到一口冰凉的奶茶，全身上下都透着舒坦。幸福的日子转瞬即逝，不是失望，是对下一秒永远保持着期待和热枕。幸运的是，时光终究不负于我，遇见了属于自己的味道，兰庭觅奶茶。
-                      <li></li>
-                      <li></li>
-                    </p>
-                  </li>
+                </p>
+              </li>
+              <li>
+                <p class="pop_q">Q:觅言觅语!</p>
+                <p class="pop_ans">A:回忆是一种甜蜜的惆怅。它教会了我自信，教会了我用珍惜去看待世界，教会我了友谊的难忘。友谊沉浸在回忆当中，只能用脑海去想它，曾经拥有过的美好，总是不能永久的拥有。终于，它抵挡不了时间的推移，岁月的变迁，过去就过去了。友谊回转在回忆当中，就像是口中的奶茶，珍珠丝滑圆润地穿过我的唇尖，触过我的牙齿，奶茶与珍珠同在，让我闻到甜蜜香浓的奶香。这满是香味的分子，终究还是散开了，让你无法再聚集它，轻闻它带给你的幽香芬芳。这真是既甜蜜又惆怅啊！
                 </p>
               </li>
             </ul>
@@ -232,7 +227,7 @@
           <div class="pop_content">
             <p>
               兰庭觅茶始终倡导健康、绿色的生活方式，致力于为顾客提供好喝的时尚饮品，经过不断的发展，逐渐受到了很多年轻消费者的认可，并且随着外卖业务的发展，产品的销量不断增加，品牌的知名度得到提高，成为行业内的知名品牌。
-              兰庭觅茶选材讲究，选用新鲜水果和牛奶，让消费者喝得放心
+              兰庭觅茶选材讲究，选用新鲜水果和牛奶，让消费者喝得放心。
             </p>
           </div>
         </div>
